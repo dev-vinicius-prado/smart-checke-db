@@ -1,16 +1,150 @@
 {
-  "posts":[
+  "projects": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "id": "1",
+      "name": "Projeto A",
+      "description": "Descrição do Projeto A",
+      "startDate": "2024-01-01",
+      "endDate": "2024-03-01",
+      "status": "completed",
+      "manager": "Carlos Silva"
+    },
+    {
+      "id": "2",
+      "name": "Projeto B",
+      "description": "Descrição do Projeto B",
+      "startDate": "2024-02-01",
+      "endDate": "2024-04-01",
+      "status": "on-hold",
+      "manager": "Maria Fernandes"
     }
   ],
-  "comments" : [
+  "teams": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "id": 1,
+      "teamName": "Equipe A",
+      "teamLeader": "Carlos",
+      "project": {
+        "id": "1",
+        "name": "Projeto A",
+        "description": "Descrição do Projeto A",
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-01",
+        "status": "completed",
+        "manager": "Carlos Silva"
+      }
+    },
+    {
+      "id": 2,
+      "teamName": "Equipe B",
+      "teamLeader": "Ana",
+      "project": {
+        "id": "1",
+        "name": "Projeto A",
+        "description": "Descrição do Projeto A",
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-01",
+        "status": "completed",
+        "manager": "Carlos Silva"
+      }
+    },
+    {
+      "id": 3,
+      "teamName": "Equipe C",
+      "teamLeader": "João",
+      "project": {
+        "id": "1",
+        "name": "Projeto A",
+        "description": "Descrição do Projeto A",
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-01",
+        "status": "completed",
+        "manager": "Carlos Silva"
+      }
+    },
+    {
+      "id": 4,
+      "teamName": "Equipe D",
+      "teamLeader": "Maria",
+      "project": {
+        "id": "2",
+        "name": "Projeto B",
+        "description": "Descrição do Projeto B",
+        "startDate": "2024-02-01",
+        "endDate": "2024-04-01",
+        "status": "on-hold",
+        "manager": "Maria Fernandes"
+      }
+    },
+    {
+      "id": 5,
+      "teamName": "Equipe E",
+      "teamLeader": "Pedro",
+      "project": {
+        "id": "2",
+        "name": "Projeto B",
+        "description": "Descrição do Projeto B",
+        "startDate": "2024-02-01",
+        "endDate": "2024-04-01",
+        "status": "on-hold",
+        "manager": "Maria Fernandes"
+      }
+    },
+    {
+      "id": 6,
+      "teamName": "Equipe F",
+      "teamLeader": "Luís",
+      "project": {
+        "id": "2",
+        "name": "Projeto B",
+        "description": "Descrição do Projeto B",
+        "startDate": "2024-02-01",
+        "endDate": "2024-04-01",
+        "status": "on-hold",
+        "manager": "Maria Fernandes"
+      }
+    },
+    {
+      "id": 7,
+      "teamName": "Equipe G",
+      "teamLeader": "Sofia",
+      "project": {
+        "id": "1",
+        "name": "Projeto A",
+        "description": "Descrição do Projeto A",
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-01",
+        "status": "completed",
+        "manager": "Carlos Silva"
+      }
+    },
+    {
+      "id": 8,
+      "teamName": "Equipe H",
+      "teamLeader": "Rafael",
+      "project": {
+        "id": "1",
+        "name": "Projeto A",
+        "description": "Descrição do Projeto A",
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-01",
+        "status": "completed",
+        "manager": "Carlos Silva"
+      }
+    },
+    {
+      "id": 9,
+      "teamName": "Equipe I",
+      "teamLeader": "Joana",
+      "project": {
+        "id": "1",
+        "name": "Projeto A",
+        "description": "Descrição do Projeto A",
+        "startDate": "2024-01-01",
+        "endDate": "2024-03-01",
+        "status": "completed",
+        "manager": "Carlos Silva"
+      }
     }
   ]
 }
